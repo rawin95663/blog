@@ -1,11 +1,13 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+# authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+
+<!-- truncate -->
 
 Simply add Markdown files (or folders) to the `blog` directory.
 
@@ -23,3 +25,9 @@ A blog post folder can be convenient to co-locate blog post images:
 The blog supports tags as well!
 
 **And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+
+## Level 2 title
+
+### Level 3 title
+
+#### Level 4 title
