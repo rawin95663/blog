@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  font-family: "Space Grotesk", sans-serif;
+  --ifm-font-family-base: "Space Grotesk", sans-serif;
   --ifm-background-color: #fbf6f4;
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
