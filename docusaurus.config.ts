@@ -3,20 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Dev Notes",
-  tagline: "Dinosaurs are cool",
+  title: "GreedySE",
+  tagline: "The greedy software engineer",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://greedyse.xyz",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Rawin", // Usually your GitHub org/user name.
+  projectName: "blog", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -70,8 +70,8 @@ const config: Config = {
         // },
         blog: {
           routeBasePath: "/",
-          blogTitle: "Docusaurus blog!",
-          blogDescription: "A Docusaurus powered blog!",
+          blogTitle: "GreedySE",
+          blogDescription: "The greedy software engineer blog!",
           postsPerPage: "ALL",
           showReadingTime: false,
           blogSidebarTitle: "All posts",
@@ -92,9 +92,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/avatar.png",
     navbar: {
-      title: "Dev Notes",
+      title: "GreedySE",
       logo: {
-        alt: "Dev Notes Logo",
+        alt: "GreedySE Logo",
         src: "img/logo.svg",
       },
       items: [
