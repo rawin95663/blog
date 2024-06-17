@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "GreedySE",
   tagline: "The greedy software engineer",
-  favicon: "img/favicon.ico",
+  favicon: "img/avatar.png",
 
   // Set the production url of your site here
   url: "https://greedyse.xyz",
@@ -74,7 +74,7 @@ const config: Config = {
           blogDescription: "The greedy software engineer blog!",
           postsPerPage: "ALL",
           showReadingTime: false,
-          blogSidebarTitle: "All posts",
+          blogSidebarTitle: "Bài viết",
           blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -95,7 +95,7 @@ const config: Config = {
       title: "GreedySE",
       logo: {
         alt: "GreedySE Logo",
-        src: "img/logo.svg",
+        src: "img/avatar.png",
       },
       items: [
         // {
@@ -159,7 +159,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dev Notes. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GreedySE. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -170,7 +170,7 @@ const config: Config = {
     },
     tableOfContents: {
       minHeadingLevel: 2,
-      maxHeadingLevel: 3,
+      maxHeadingLevel: 4,
     },
   } satisfies Preset.ThemeConfig,
 };
